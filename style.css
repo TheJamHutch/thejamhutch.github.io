@@ -1,8 +1,15 @@
+/* Tags */
 body
 {
 	background-color:#CDCDCD;
 }
 
+h3
+{
+	text-align: center;
+}
+
+/* Classes */
 .content
 {
 	position: fixed;
@@ -18,6 +25,7 @@ body
 	
 }
 
+/* IDs */
 #sidebar
 {
 	position: fixed;
