@@ -1,12 +1,17 @@
 /* Tags */
 body
 {
-	background-color:#CDCDCD;
+	background-image: url("img/background1.jpg");
 }
 
 h3
 {
 	text-align: center;
+}
+
+img
+{
+	
 }
 
 /* Classes */
@@ -22,34 +27,35 @@ h3
 
 .sideicons
 {
-	
+	padding-left:10px;
+	padding-right:10px;
 }
 
 /* IDs */
 #sidebar
 {
 	position: fixed;
-	width: 200px;
+	width: 220px;
 	height: 95%;
-	background-color: #FCFCFC;
+	background-color: #FAFAFA;
 	box-sizing: border-box;
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 20px;
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 5px black;
 	text-align: center;
 }
 
 #page
 {
-	width: 930px;
+	width: 900px;
 	height: 95%;
-	background-color: #FCFCFC;
+	background-color: #FAFAFA;
 	box-sizing: border-box;
 	float: right;
 	padding: 20px;
 	margin-top: 20px;
 	margin-right: 20px;
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 5px black;
 }
